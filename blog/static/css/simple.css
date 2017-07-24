@@ -1,0 +1,63 @@
+body{
+    overflow-x: hidden;
+    margin: 10px;
+    background-color: gray;
+    color: #fffff9;
+}
+li{
+    display: inline;
+    margin-right: 50px;
+}
+#image{
+    margin-bottom: 5px;
+    margin-right: 1px;
+    float: right !important;
+    width: 300px;
+    border-radius: 15px;
+    size: auto;
+    position: static;
+}
+#time{
+    text-align: right;
+    float: right;
+    margin-bottom: 0;
+}
+.button{
+    padding: 5px 10px 5px 10px;
+}
+#article{
+    white-space: pre-line;
+}
+fieldset {
+  font-family: "Malgun Gothic","sans-serif","serif","fantasy" ;
+  float: left !important;
+  margin: 25px 25px 5px 5px; /* top right bottom left*/
+  text-align: left;
+  padding-top: 1px;
+  border-radius: 4px;
+  width: auto !important;
+  height: auto;
+}
+legend{
+    background-color: #36ff46;
+    padding: 10px;
+    text-decoration: none;
+    box-shadow: inset 1px 1px 80px rgba(0,0,0,0.9) !important;
+}
+#container{
+    float: left !important;
+    border-radius: 1px;
+    width: 100%;
+    border: 2px solid;
+    text-align: center;
+    background-color: #36ff46;
+}
+#footer{
+    float: left !important;
+    margin: 20px 5px 5px 5px;
+    width: 100%;
+    text-align: left;
+    font-size: 15px;
+    box-shadow: 1px 1px 150px rgba(0,0,0,0.9) !important;
+    background-color: #36ff46;
+}
